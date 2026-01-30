@@ -20,7 +20,7 @@ const app = initializeApp(firebaseConfig);
 //inicializamos la base de datos
 const db = getFirestore(app);
 
-const PALABRA_SECRETA = "PROYECTO_FLORIDA_SEGURIDAD_2025_TI";
+const PALABRA_SECRETA = "PROYECTO_CENTRO_COMERCIAL_2026";
 
 //Exportamosla configuración para usarla en todos los componentes
 export { db, PALABRA_SECRETA };
