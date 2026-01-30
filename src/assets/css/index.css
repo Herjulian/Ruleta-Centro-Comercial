@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  touch-action: none;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Mantenemos esto para evitar el scroll blanco feo */
+  font-family: system-ui, -apple-system, sans-serif;
+  user-select: none;
+}
+
+body {
+  /* --- AQUÍ ESTÁ TU FONDO DE VUELTA --- */
+  background-image: url('../img/Fondo-Ruleta.png'); /* Asegúrate que el nombre del archivo sea exacto */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Esto fija el fondo para que no se mueva */
+  background-size: cover;       /* Esto hace que cubra toda la pantalla siempre */
+  background-color: #240046;    /* Color de respaldo por si la imagen tarda en cargar */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
