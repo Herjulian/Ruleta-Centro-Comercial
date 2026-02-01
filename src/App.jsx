@@ -46,9 +46,7 @@ function App() {
              Aquí SÍ usamos el ContenedorPantalla para que se vea vertical en la TV 
           */}
           <Route path="/" element={
-             <ContenedorPantalla>
                 <Inicio />
-             </ContenedorPantalla>
           } />
 
           {/* RUTA 2: RULETA
